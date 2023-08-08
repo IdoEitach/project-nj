@@ -15,7 +15,7 @@ export default function page() {
   }
   return (
     <ThemeContext.Provider value={{ theme, setTheme }}>
-      <div className="app">
+      <div className="App">
         <ButtonTheme />
         <UserName />
       </div>
